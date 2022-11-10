@@ -8,14 +8,14 @@
 #include <Arduino.h>
 
 // Pino usado para disparar os pulsos do sensor
-#define PinTRIG1  3 
-#define PinTriG2  4
+#define PinTRIG1  3
+#define PinTriG2  5
 // Pino usado para ler a saida do sensor
-#define PinECHO1  5 
-#define PinECHO2  6
+#define PinECHO1  2
+#define PinECHO2  4
 // Pino usado para disparar o motor de vibração (PWM)
-const int PinVibra1 = 10; // PWM
-const int PinVibra2 = 11; // PWM
+const int PinVibra1 = 9; // PWM
+const int PinVibra2 = 10; // PWM
 
 double TempoEcho1 = 0;
 double TempoEcho2 = 3;
